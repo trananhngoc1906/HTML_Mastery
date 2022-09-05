@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body,
+html {
+    background-color: white;
+
+}
+
+.clear {
+    clear: both;
+}
+
+/* HEADER  */
+
+
+.header__logo {
+    margin: auto;
+    width: 70%;
+    position: relative;
+
+}
+
+
+.header__logo h1 {
+    position: absolute;
+    top: 26px;
+    left: 57px;
+    font-size: 35px;
+    color: #1B1D2D;
+}
+
+
+.header__logo i {
+    width: 50px;
+    height: 50px;
+    background-color: #002146;
+    border-radius: 50%;
+    color: #D6AE0E;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.header ul {
+    color: black;
+    list-style: none;
+    padding: 20px 20px;
+
+}
+
+.header li {
+    display: inline;
+    margin-right: 50px;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: #282A3A;
+    font-size: 20px;
+}
+
+/* CAROUSEL  */
+.carousel {
+    background-image: url(../images/2.jpg);
+    height: 560px;
+    background-size: cover;
+    background-position: top;
+}
+
+/* INTRO  */
+.intro {
+    height: 500px;
+}
+
+.intro__content {
+    margin: auto;
+    width: 77%;
+    padding: 65px 0;
+}
+
+.intro__left,
+.intro__right {
+    float: left;
+    width: 50%;
+}
+
+.intro__left {
+    padding-right: 70px;
+}
+
+.intro__right img {
+    width: 100%;
+}
+
+.intro button {
+    font-size: 17px;
+    padding: 15px 8px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #FDC800;
+    margin-top: 40px;
+}
+
+.intro a {
+    color: black;
+    list-style: none;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+/* COURSE  */
+.course {
+    height: 180px;
+    color: #212529;
+    background-color: #F6F6F6;
+}
+
+.course__content {
+    margin: auto;
+    width: 77%;
+}
+
+.course__item {
+    float: left;
+    width: 25%;
+    padding: 60px 0;
+}
+
+.course__left {
+    float: left;
+    witdh: 30%;
+}
+
+.course__right {
+    float: left;
+    width: 70%;
+}
+
+.course h1 {
+    font-size: 60px;
+}
+
+.course h4 {
+    font-size: 19px;
+    padding: 14px 6px;
+    font-weight: 500;
+
+}
+
+/* FOLDER  */
+.folder {
+    height: 440px;
+}
+
+.folder__content {
+    margin: auto;
+    width: 80%;
+    padding: 60px 0px;
+    padding-left: 30px;
+}
+
+.folder__item {
+    background-color: #002146;
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    height: 132px;
+    width: 230px;
+    margin: 12px 12px;
+    color: rgba(255, 255, 255, 0.95)
+}
+
+.folder i {
+
+    font-size: 40px;
+    padding-top: 30px;
+
+}
+
+.folder h4 {
+    padding-top: 10px;
+}
+
+/* LEG  */
+.leg {
+    height: 750px;
+    background-color: #F6F6F6;
+}
+
+.leg__content {
+    margin: auto;
+    width: 80%;
+    padding: 15px 0;
+}
+
+.leg__left,
+.leg__right {
+    float: left;
+    width: 50%;
+}
+
+.leg__left {
+    padding: 0px 19px;
+
+}
+
+.leg__right {
+    padding-left: 15px;
+}
+
+.leg h1 {
+    margin: 70px 0 30px;
+}
+
+.leg h2 {
+    font-size: 33px;
+}
+
+.leg__post {
+    margin-bottom: 25px;
+    background-color: white;
+
+}
+
+
+
+.leg__event {
+    height: 190px;
+    margin-bottom: 25px;
+    background-color: white;
+}
+
+.leg__img {
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+.leg__text {
+    float: left;
+    width: 70%;
+    padding-top: 18px;
+    padding-left: 33px;
+}
+
+.leg h6 {
+    color: rgba(155, 155, 155, 0.852);
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.leg__button {
+    text-align: right;
+}
+
+.leg button {
+    background-color: #FDC800;
+    border-radius: 5px;
+    border: 1px solid #FDC800;
+    height: 45px;
+    width: 115px;
+    font-weight: 600;
+
+}
+
+.leg__img img {
+    width: 130%;
+    border-radius: 5px;
+}
+
+.leg hr {
+    width: 90%;
+
+}
+
+.leg__button a {
+    text-decoration: none;
+    color: #002146;
+}
+
+.event__calendar {
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 120px;
+    width: 95px;
+    margin: 18px;
+
+}
+
+.event__text {
+    float: left;
+    width: 75%;
+    padding-top: 20px;
+}
+
+
+.calendar__top {
+    background-color: #FDC800;
+    border-radius: 5px 5px 0 0;
+    padding: 15px;
+}
+
+.calendar__bottom {
+    background-color: #002146;
+    border-radius: 0 0 5px 5px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.event__time {
+    color: #143254;
+    border-right: 1px;
+    font-weight: 600;
+}
+
+.vachke {
+    border-top: 1px solid #c5ccd3;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.kedoc {
+    border-right: 1px solid;
+    height: 10px;
+    display: inline;
+    margin: 0 20px;
+}
+
+.leg h5 {
+    font-size: 18px;
+}
+
+/* FOOTER  */
+.footer {
+    height: 500px;
+    background: #002146;
+}
+
+.footer__content {
+    margin: auto;
+    width: 90%;
+    padding: 40px 80px;
+
+}
+
+.footer__item {
+    float: left;
+    width: 33.33%;
+    color: white;
+
+}
+
+.footer ul {
+
+    list-style: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer li {
+    margin: 20px 0;
+}
+
+.footer h5 {
+    font-size: 20px;
+    margin: 40px 0 30px;
+}
+
+.footer__contact span {
+    line-height: 25px;
+}
+
+.footer i {
+    color: #FDC800;
+    padding-right: 10px;
+}
+
+.footer__contact {
+    margin-bottom: 20px;
+    padding-right: 15px;
+}
+
+.footer__kengang {
+    border: 1px solid #454545;
+    width: 99%;
+    margin: 35px auto;
+}
+
+.footer__foot p {
+    color: white;
+
+}
+
+.footer__foot span {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 5px;
+}
